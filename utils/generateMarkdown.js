@@ -1,27 +1,29 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return`license text`
+  if (license =='MIT')
+    {return `![badge](https://img.shields.io/badge/MIT-License-red)`
+}
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if(license === 'MIT')
+  if(license == 'MIT')
     {return 'https://choosealicense.com/licenses/mit/'
   } 
-  else if(license === 'GNU')
+  else if(license == 'GNU')
     {return 'https://choosealicense.com/licenses/gpl-3.0/'}
-  else if(license === 'Apache')
+  else if(license == 'Apache')
     {return ''}
-  else if (license === 'ISC')
+  else if (license == 'ISC')
     {return 'https://choosealicense.com/licenses/isc/'}
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license, name) {
-  if (license === 'MIT'){return `
+  if (license == 'MIT'){return `
 MIT License
 
 Copyright (c) ${new Date().getFullYear()} ${name}
@@ -44,7 +46,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
   `}
-  else if(license === 'Apache'){return `
+  else if(license == 'Apache'){return `
                         Apache License
                     Version 2.0, January 2004
                   http://www.apache.org/licenses/
@@ -97,7 +99,7 @@ You may add Your own copyright statement to Your modifications and may provide a
 
 END OF TERMS AND CONDITIONS
   `
-  } else if(license === 'GNU'){return `
+  } else if(license == 'GNU'){return `
               GNU AFFERO GENERAL PUBLIC LICENSE
               Version 3, 19 November 2007
 
@@ -307,7 +309,7 @@ If your software can interact with users remotely through a computer network, yo
 
 You should also get your employer (if you work as a programmer) or school, if any, to sign a "copyright disclaimer" for the program, if necessary. For more information on this, and how to apply and follow the GNU AGPL, see <https://www.gnu.org/licenses/>.
   `
-} else if (license === 'ISC'){return `
+} else if (license == 'ISC'){return `
 ISC License
 
 Copyright (c) ${new Date().getFullYear()} ${name}
@@ -329,10 +331,9 @@ PERFORMANCE OF THIS SOFTWARE.`
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-# ${data.description}
-${renderLicenseBadge(data.license)}
-${renderLicenseLink(data.license)}
-${renderLicenseSection(data.license, data.name)}
+# license Badge ${renderLicenseBadge(data.license)}
+# license Link ${renderLicenseLink(data.license)}
+# license Section ${renderLicenseSection(data.license, data.name)}
 
 
 `;
