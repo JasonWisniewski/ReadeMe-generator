@@ -330,11 +330,30 @@ PERFORMANCE OF THIS SOFTWARE.`
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  # return `# ${data.title}
+
+## Description
+
+## Table of Contents (Optional)
+
+## Installation
+
+## Usage
+
+## Credits 
+
+## License
 # license Badge ${renderLicenseBadge(data.license)}
 # license Link ${renderLicenseLink(data.license)}
 # license Section ${renderLicenseSection(data.license, data.name)}
 
+## Badges
+
+## Features
+
+## Contributing
+
+## Tests (Optional)
 
 `;
 }
