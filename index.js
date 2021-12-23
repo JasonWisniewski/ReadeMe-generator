@@ -25,7 +25,33 @@ function init(userInput) {
       message: 'Which license would you like?',
       choices:['MIT','Apache','GNU', 'ISC']
     },
-
+    {
+      type: 'input',
+      name: 'description',
+      message: 'Please write a description of your project'
+    },
+    {
+      // need to allow upload of screenshots with ![alt text](assets/images/screenshot.png)
+      type: 'input',
+      name: 'installation',
+      message: 'What are the steps required to install your project? Provide a step by step description of how to get the development running'
+    },
+    {
+      type: 'input',
+      name: 'credits',
+      message: 'List your collaborators, if any, with links to their GitHub profiles.'
+    },
+    {
+      // add contributor covenant from readme
+      type: 'input',
+      name: 'contributing',
+      message: 'Would you like other developers to contribute to this project?  If yes a contributor covenant will be added'
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'Did you write tests for your application?  If so provide examples on how to run them'
+    }
   ]).then(userInput=> {
     const readMeText = generateMarkdown(userInput)
     writeToFile(readMeText);

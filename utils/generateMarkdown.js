@@ -3,7 +3,14 @@
 function renderLicenseBadge(license) {
   if (license =='MIT')
     {return `![badge](https://img.shields.io/badge/MIT-License-red)`
-}
+    }
+  if (license == 'GNU')
+    {return `![badge](https://img.shields.io/badge/GNU-License-yellow)`}
+  
+  if (license == 'ISC')
+  {return `![badge](https://img.shields.io/badge/ISC-License-blue)`}
+  if (license == 'Apache')
+    {return `![badge](https://img.shields.io/badge/Apache-License-green)`}
 }
 
 // TODO: Create a function that returns the license link
@@ -15,7 +22,7 @@ function renderLicenseLink(license) {
   else if(license == 'GNU')
     {return 'https://choosealicense.com/licenses/gpl-3.0/'}
   else if(license == 'Apache')
-    {return ''}
+    {return 'http://www.apache.org/licenses/LICENSE-2.0'}
   else if (license == 'ISC')
     {return 'https://choosealicense.com/licenses/isc/'}
 }
@@ -330,22 +337,26 @@ PERFORMANCE OF THIS SOFTWARE.`
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  # return `# ${data.title}
+  return `# ${data.title}
+${renderLicenseBadge(data.license)}
 
 ## Description
+${data.description}
 
 ## Table of Contents (Optional)
 
 ## Installation
+${data.installation}
 
 ## Usage
 
 ## Credits 
+${data.credits}
 
 ## License
-# license Badge ${renderLicenseBadge(data.license)}
-# license Link ${renderLicenseLink(data.license)}
-# license Section ${renderLicenseSection(data.license, data.name)}
+${data.license}
+${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license, data.name)}
 
 ## Badges
 
@@ -354,7 +365,7 @@ function generateMarkdown(data) {
 ## Contributing
 
 ## Tests (Optional)
-
+${data.tests}
 `;
 }
 
