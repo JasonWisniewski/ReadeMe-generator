@@ -344,6 +344,12 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents (Optional)
+1.
+2.
+3.
+4.
+5.
+6.
 
 ## Installation
 ${data.installation}
@@ -366,6 +372,11 @@ ${renderLicenseSection(data.license, data.name)}
 
 ## Tests (Optional)
 ${data.tests}
+
+## Questions
+github username: ${data.github}
+github link : https://github.com/${data.github}
+If you have any additional questions you can reach me at ${data.email}
 `;
 }
 

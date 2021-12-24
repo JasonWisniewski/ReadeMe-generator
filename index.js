@@ -16,6 +16,24 @@ function init(userInput) {
   return inquirer.prompt([
     {
       type: 'input',
+      name: 'github',
+      message: 'Enter your GitHub Username (Required)',
+      validate: githubInput => {
+        if (githubInput) {
+          return true;
+        } else {
+          console.log('Please enter your GitHub username!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name:'email',
+      message:"What email can people contact you at with questions?"
+    },
+    {
+      type: 'input',
       name:'title',
       message:"What is the title of your project?"
     },
