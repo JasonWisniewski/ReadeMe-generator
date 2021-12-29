@@ -1,18 +1,26 @@
-# cum dumpster
+# l;akdjfaskl;d j
 ![badge](https://img.shields.io/badge/MIT-License-red)
 
 ## Description
-its a trash applicaion hense the name.  Where multpile people cum in a virtual dumpster and sell it on the black market
+al;ksdjf;a lsdfa l;ksdfjan,mxcznv ,.oaierhjk;ft'
 
 ## Table of Contents (Optional)
-
+1. [Installation](#installation)<br>
+2. [Usage](#usage)<br>
+3. [credits](#credits)<br>
+4. [License](#license)<br>
+5. [Badges](#badges)<br>
+6. [Features](#features)<br>
+7. [Contributing](#contributing)<br>
+8. [Tests](#tests)<br>
+9. [Questions](#questions)<br>
 ## Installation
-Clone the repo
+clone repo and have at her!
 
 ## Usage
 
 ## Credits 
-jason jaosn mick
+al;kd jf
 
 ## License
 MIT
@@ -51,5 +59,6 @@ SOFTWARE.
 no
 
 ## Questions
-github user name: JasonWisniewski
-github link : https://github.com/JasonWisniewski
+github username: fart sniffers
+github link : https://github.com/fart sniffers
+If you have any additional questions you can reach me at jwizinpa95@gmail.com

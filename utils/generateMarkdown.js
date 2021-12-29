@@ -344,13 +344,15 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents (Optional)
-1.
-2.
-3.
-4.
-5.
-6.
-
+1. [Installation](#installation)<br>
+2. [Usage](#usage)<br>
+3. [credits](#credits)<br>
+4. [License](#license)<br>
+5. [Badges](#badges)<br>
+6. [Features](#features)<br>
+7. [Contributing](#contributing)<br>
+8. [Tests](#tests)<br>
+9. [Questions](#questions)<br>
 ## Installation
 ${data.installation}
 
