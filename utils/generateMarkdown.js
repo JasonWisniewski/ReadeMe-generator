@@ -348,11 +348,11 @@ ${data.description}
 2. [Usage](#usage)<br>
 3. [credits](#credits)<br>
 4. [License](#license)<br>
-5. [Badges](#badges)<br>
-6. [Features](#features)<br>
-7. [Contributing](#contributing)<br>
-8. [Tests](#tests)<br>
-9. [Questions](#questions)<br>
+5. [Features](#features)<br>
+6. [Contributing](#contributing)<br>
+7. [Tests](#tests)<br>
+8. [Questions](#questions)<br>
+
 ## Installation
 ${data.installation}
 
@@ -365,8 +365,6 @@ ${data.credits}
 ${data.license}
 ${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license, data.name)}
-
-## Badges
 
 ## Features
 
