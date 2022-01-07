@@ -1,8 +1,8 @@
-# kladfkcvmnb
+# read me generator
 ![badge](https://img.shields.io/badge/MIT-License-red)
 
 ## Description
-al;sdf vcz;klh asd;f adfkjhweoirdafklhasdlkf
+lask;l;asd l;aksasdkl al;kddkl;al
 
 ## Table of Contents (Optional)
 1. [Installation](#installation)<br>
@@ -15,14 +15,13 @@ al;sdf vcz;klh asd;f adfkjhweoirdafklhasdlkf
 8. [Questions](#questions)<br>
 
 ## Installation
-clone repo
+step 1 step 2
 
 ## Usage
-als;d afasldfjasdlf asdlfj agvbbnxcvkhoaiwse
-shot![image](../assets/images/screenshot.png)
+use to create a professional read me file quickly.
 
 ## Credits 
-none
+noah smith noahsmith/github.com
 
 ## License
 MIT
@@ -52,14 +51,17 @@ SOFTWARE.
   
 
 ## Features
-no
+no it does not
 
 ## Contributing
-none just me
+Please do not contribute to this project.
+
 ## Tests
-no
+There are no test for this application
 
 ## Questions
-github username: al;sdjasd
-github link : https://github.com/al;sdjasd
-If you have any additional questions you can reach me at l;asd 
+github username: JasonWisniewski
+
+github link : https://github.com/JasonWisniewski
+
+If you have any additional questions you can reach me at test@gmail.com

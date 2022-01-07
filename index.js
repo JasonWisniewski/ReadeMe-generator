@@ -59,12 +59,6 @@ function init(userInput) {
       message: 'Please provide instructions and examples of use'
     },
     {
-      type: 'checkbox',
-      name: 'screenshot',
-      message: 'Would you like to include a screen shot in your project?  If so please add your screen shot to assets/images with the file name screenshot.png',
-      choices:['Yes','No']
-    },
-    {
       type: 'input',
       name: 'credits',
       message: 'List your collaborators, if any, with links to their GitHub profiles.'
@@ -75,9 +69,10 @@ function init(userInput) {
       message: 'Does your application have a lot of features that you would like to add to your readme?'
     },
     {
-      type: 'input',
+      type: 'checkbox',
       name: 'contributing',
-      message: 'Would you like other developers to contribute to this project?  If yes a contributor covenant will be added'
+      message: 'Would you like other developers to contribute to this project?  If yes a contributor covenant will be added',
+      choices:['Yes','No']
     },
     {
       type: 'input',
