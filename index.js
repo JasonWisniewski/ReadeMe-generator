@@ -49,10 +49,20 @@ function init(userInput) {
       message: 'Please write a description of your project'
     },
     {
-      // need to allow upload of screenshots with ![alt text](assets/images/screenshot.png)
       type: 'input',
       name: 'installation',
       message: 'What are the steps required to install your project? Provide a step by step description of how to get the development running'
+    },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'Please provide instructions and examples of use'
+    },
+    {
+      type: 'checkbox',
+      name: 'screenshot',
+      message: 'Would you like to include a screen shot in your project?  If so please add your screen shot to assets/images with the file name screenshot.png',
+      choices:['Yes','No']
     },
     {
       type: 'input',

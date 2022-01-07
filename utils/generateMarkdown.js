@@ -335,6 +335,14 @@ PERFORMANCE OF THIS SOFTWARE.`
 }
 }
 
+function addScreenShot(screenshot){
+  if (screenshot = 'yes') {
+    return `shot![image](../assets/images/screenshot.png)`
+  } else {
+    return``
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -357,6 +365,9 @@ ${data.description}
 ${data.installation}
 
 ## Usage
+${data.usage}
+
+${addScreenShot(data.screenshot)}
 
 ## Credits 
 ${data.credits}
@@ -367,10 +378,10 @@ ${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license, data.name)}
 
 ## Features
-${features}
+${data.features}
 
 ## Contributing
-${contributing
+${data.contributing
 }
 ## Tests
 ${data.tests}
