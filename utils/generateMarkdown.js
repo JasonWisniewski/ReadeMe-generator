@@ -367,10 +367,12 @@ ${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license, data.name)}
 
 ## Features
+${features}
 
 ## Contributing
-
-## Tests (Optional)
+${contributing
+}
+## Tests
 ${data.tests}
 
 ## Questions

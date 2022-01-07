@@ -1,27 +1,26 @@
-# a;skldfj
+# Read Me Generator
 ![badge](https://img.shields.io/badge/MIT-License-red)
 
 ## Description
-adfasdf 
+This project is to create a professional readme file using nodejs and inquirer.  This will save me time as a developer since I will not have to start from scratch for every project
 
 ## Table of Contents (Optional)
 1. [Installation](#installation)<br>
 2. [Usage](#usage)<br>
 3. [credits](#credits)<br>
 4. [License](#license)<br>
-5. [Badges](#badges)<br>
-6. [Features](#features)<br>
-7. [Contributing](#contributing)<br>
-8. [Tests](#tests)<br>
-9. [Questions](#questions)<br>
+5. [Features](#features)<br>
+6. [Contributing](#contributing)<br>
+7. [Tests](#tests)<br>
+8. [Questions](#questions)<br>
 
 ## Installation
-asdf asdfgfsgertw
+clone the repo.
 
 ## Usage
 
 ## Credits 
-Noah Allen
+None just me
 
 ## License
 MIT
@@ -29,7 +28,7 @@ https://choosealicense.com/licenses/mit/
 
 MIT License
 
-Copyright (c) 2021 undefined
+Copyright (c) 2022 undefined
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -50,16 +49,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
   
 
-## Badges
-
 ## Features
 
 ## Contributing
 
 ## Tests (Optional)
-nope
+I did not write any tests for this application.
 
 ## Questions
-github username: jason
-github link : https://github.com/jason
-If you have any additional questions you can reach me at a;sdfjk
+github username: JasonWisniewski
+github link : https://github.com/JasonWisniewski
+If you have any additional questions you can reach me at jwizinpa95@gmail.com

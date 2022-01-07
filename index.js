@@ -60,7 +60,11 @@ function init(userInput) {
       message: 'List your collaborators, if any, with links to their GitHub profiles.'
     },
     {
-      // add contributor covenant from readme
+      type: 'input',
+      name: 'features',
+      message: 'Does your application have a lot of features that you would like to add to your readme?'
+    },
+    {
       type: 'input',
       name: 'contributing',
       message: 'Would you like other developers to contribute to this project?  If yes a contributor covenant will be added'
